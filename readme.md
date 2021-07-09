@@ -29,6 +29,8 @@ export default {
   },
   plugins: [
     copy({
+      // Array of globs and directories to watch for changes
+      watch: ['src/**/*.html', 'assets/fonts/', 'assets/images/'],
       targets: [
         { src: 'src/index.html', dest: 'dist/public' },
         { src: ['assets/fonts/arial.woff', 'assets/fonts/arial.woff2'], dest: 'dist/public/fonts' },
@@ -185,6 +187,14 @@ copy({
   copyOnce: true
 })
 ```
+
+#### watch
+
+Type: `Array` | Default: `[]`
+
+Paths (string or array of strings). Paths to files, dirs to be watched recursively, or glob patterns.
+
+Passed directly to [chokidar](https://github.com/paulmillr/chokidar) as an array of directory that should be watched. When used with Rollupjs' watch mode the plugin will only copy individual files that have changed.
 
 #### flatten
 
