@@ -1,7 +1,7 @@
 {
   "name": "@jonathanmoore/rollup-plugin-copy",
   "description": "Copy and watch files and folders using Rollup",
-  "version": "3.5.0",
+  "version": "3.5.1",
   "author": {
     "name": "Jonathan Moore",
     "url": "https://github.com/jonathanmoore/"
