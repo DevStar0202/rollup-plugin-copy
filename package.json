@@ -1,9 +1,16 @@
 {
-  "name": "rollup-plugin-copy",
-  "description": "Copy files and folders using Rollup",
-  "version": "3.4.0",
-  "author": "Vlad Shcherbin <vlad.shcherbin@gmail.com>",
-  "repository": "vladshcherbin/rollup-plugin-copy",
+  "name": "@jonathanmoore/rollup-plugin-copy",
+  "description": "Copy and watch files and folders using Rollup",
+  "version": "3.5.0",
+  "author": {
+    "name": "Jonathan Moore",
+    "url": "https://github.com/jonathanmoore/"
+  },
+  "contributor": "Vlad Shcherbin <vlad.shcherbin@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanmoore/rollup-plugin-copy.git"
+  },
   "main": "dist/index.commonjs.js",
   "module": "dist/index.module.js",
   "types": "index.d.ts",

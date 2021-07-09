@@ -1,9 +1,9 @@
 # rollup-plugin-copy
 
-[![Build Status](https://travis-ci.com/vladshcherbin/rollup-plugin-copy.svg?branch=master)](https://travis-ci.com/vladshcherbin/rollup-plugin-copy)
-[![Codecov](https://codecov.io/gh/vladshcherbin/rollup-plugin-copy/branch/master/graph/badge.svg)](https://codecov.io/gh/vladshcherbin/rollup-plugin-copy)
+[![Build Status](https://travis-ci.com/jonathanmoore/rollup-plugin-copy.svg?branch=master)](https://travis-ci.com/vladshcherbin/rollup-plugin-copy)
+[![Codecov](https://codecov.io/gh/jonathanmoore/rollup-plugin-copy/branch/master/graph/badge.svg)](https://codecov.io/gh/vladshcherbin/rollup-plugin-copy)
 
-Copy files and folders, with glob support.
+Copy files and folders, with glob support and the ability to watch files for changes. Forked from the original plugin ([vladshcherbin/rollup-plugin-copy](https://github.com/vladshcherbin/rollup-plugin-copy)) to add in the watch capabilities.
 
 ## Installation
 
